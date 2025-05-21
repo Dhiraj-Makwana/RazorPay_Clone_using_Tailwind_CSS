@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+      --deepBlue: #02042a;
+      --lightBlue: #2b84ea;
+      --lightBlue300: #4b94ed;
+      --lightBlue500: #0b72e7;
+      --greenLight: #61cea6;
+      --grayText: #818597;
+      --lightGray: #e2e2e2;
+      --grayBlue: #344a6c;
+      --deepBlueHead: #162f56;
+      --gray2: #525a76;
+}
+
+.nav-baar {
+    background-color: var(--deepBlue);
+}
+
+.razor-nav-baar{
+    /* relative w-[1080px] mx-auto flex items-center justify-between */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.razor-logo{
+    /* cursor-pointer py-7 pr-7 */
+    cursor: pointer;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+img{
+    width: 125px;
+    height: 30px;
+}
+
+.unorder-list{
+    display: flex;
+}
+.unorder-list > *:not(:first-child) {
+    margin-left: 1.5rem;
+}
+
+.list-eliment-1{
+    list-style-type: none;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mullish', sans-serif;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.list-eliment-1:hover a{
+    color: var(--lightBlue);
+}
+
+.underline{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.25rem;
+    background-color: var(--lightBlue);
+    display: none;
+    transition: all 200ms;
+}
+
+.list-eliment-1:hover .underline{
+    display: block;
+}
+
+
+.list-eliment-2{
+    list-style-type: none;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mullish', sans-serif;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.list-eliment-2:hover a{
+    color: var(--lightBlue);
+}
+
+.underline{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.25rem;
+    background-color: var(--lightBlue);
+    display: none;
+    transition: all 200ms;
+}
+
+.list-eliment-2:hover .underline{
+    display: block;
+}
+
+
+.list-eliment-3{
+    list-style-type: none;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mullish', sans-serif;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.list-eliment-3:hover a{
+    color: var(--lightBlue);
+}
+
+
+.list-eliment-4{
+    list-style-type: none;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mullish', sans-serif;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.list-eliment-4:hover a{
+    color: var(--lightBlue);
+}
+
+
+.list-eliment-5{
+    list-style-type: none;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mullish', sans-serif;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.list-eliment-5:hover a{
+    color: var(--lightBlue);
+}
+
+.underline{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.25rem;
+    background-color: var(--lightBlue);
+    display: none;
+    transition: all 200ms;
+}
+
+.list-eliment-5:hover .underline{
+    display: block;
+}
+
+
+.list-eliment-6{
+    list-style-type: none;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mullish', sans-serif;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.list-eliment-6:hover a{
+    color: var(--lightBlue);
+}
+
+.underline{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.25rem;
+    background-color: var(--lightBlue);
+    display: none;
+    transition: all 200ms;
+}
+
+.list-eliment-6:hover .underline{
+    display: block;
+}
+
+
+.list-eliment-7{
+    list-style-type: none;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mullish', sans-serif;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.list-eliment-7:hover a{
+    color: var(--lightBlue);
+}
+
+.underline{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.25rem;
+    background-color: var(--lightBlue);
+    display: none;
+    transition: all 200ms;
+}
+
+.list-eliment-7:hover .underline{
+    display: block;
+}
+
+.nav-buttons{
+    display: flex;
+}
+.nav-buttons > *:not(:first-child) {
+    margin-left: 1.5rem;
+}
+
+.india-logo{
+    width: 75px;
+    height: 75px;
+}
+
+.login-btn{
+    padding: 0.75rem 1.25rem;
+    font-family: 'Mullish', sans-serif;
+    color: white;
+    background-color: transparent; /* if needed */
+    border: 1px solid var(--lightBlue);     /* lightBlue */
+    border-radius: 0.125rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-top: 8px;
+    width: 89px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.sign-up-btn{
+    padding: 0.75rem 1.25rem;
+    font-family: 'Mullish', sans-serif;
+    border-radius: 0.125rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    background-color: white;
+    color: var(--lightBlue300); /* lightBlue300 */
+    border: 1px solid var(--lightBlue500); /* optional: match text color or define separately */
+    transition: all 200ms;
+    width: 100px;
+    height: 50px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    color: var(--lightBlue500);
+}
